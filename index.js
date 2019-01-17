@@ -167,6 +167,8 @@ function init(dir) {
 	})
 
 	addon.runHTTPWithOptions({ port: 7000 })
+
+	addon.publishToCentral("https://stremio-public-domain-foreign.now.sh/manifest.json")
 }
 
 init('./movies')
