@@ -1,0 +1,13 @@
+{
+  "name": "stremio-public-domain-foreign",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "needle": "^2.2.4",
+    "stremio-addon-sdk": "^0.6.4"
+  }
+}
