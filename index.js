@@ -6,13 +6,13 @@ const addonSDK = require('stremio-addon-sdk')
 
 const manifest = {
     id: 'org.publicdomainforeign',
-    version: '1.0.0',
+    version: '1.0.1',
     name: 'Public Domain Foreign Movies',
     description: 'Free Foreign Movies that are either in the Public Domain or have been made Free to Watch by their authors.',
     resources: ['stream', 'meta', 'catalog'],
     types: ['movie'],
     idPrefixes: ['pdfm_'],
-    icon: 'https://openclipart.org/image/2400px/svg_to_png/211358/public-domain-logo-streamlined.png'
+    icon: 'https://law.duke.edu/sites/default/files/images/centers/cspd/pdd2019/1923_montage.jpg'
 }
 
 const movies = {}
